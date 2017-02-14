@@ -5,3 +5,22 @@
    date with your remote repository?
     I might want to do this manually, because I may have things that I don't want to keep up-to-date.
     With manual changes I have full control I choose what I want.
+
+3. Describe the difference between forks, clones, and branches. When would you use one instead of another?
+    clone: my own copy of a repository
+    fork: same as clone, but online on github
+    branch: a path of a repository
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+    With the last known state of the remote I can always see where I come from.
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+    I would show my changes to the others and explain them. If there are any questions or bugs, I can work
+    on these direct. But the others need to have some free time for me.
+    With Git or GitHub I could upload them and they check it, when they have the time for that. But it takes
+    longer if there were any questions or bugs in my code.
+
+6. When would you want to make changes in a separate branch rather than directly in master? What
+   benefits does each approach have?
+    When you make changes in a separate branch it does not destroy the original branch. If everything is
+    correct you can merge it in the master branch.
